@@ -1,0 +1,84 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+.superheader {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background-color: #1f2937;
+    flex: 1 0 auto;
+}
+
+.header {
+    height: 72px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header .logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header a,
+.splashtext #splashsubtitle {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    flex: 1 0 auto;
+}
+
+.splashtext {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 16px;
+    margin-bottom: 64px;
+}
+
+.splashtext #splashtitle {
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.splashtext #splashbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+    width: 144px;
+    flex: 0 0 auto;
+    font-size: 18px;
+    background-color: #3882f6;
+    border-style: none;
+    border-radius: 8px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 32px;
+}
+
+
+ul {
+    display: flex;
+    column-gap: 16px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration-line: none;
+}
