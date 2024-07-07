@@ -164,6 +164,7 @@ body {
     border-radius: 0.5rem;
     background-color: #3882f6;
     padding: 32px;
+    gap: 32px;
 }
 
 .cta-text {
@@ -190,10 +191,10 @@ body {
     flex: 0 0 auto;
     font-size: 18px;
     background-color: #3882f6;
-    border: #f9faf8 solid 0.25rem;
+    border: #f9faf8 solid 0.25em;
     border-radius: 0.5rem;
     padding: 8px;
-    height: 25%;
+    height: 40%;
     align-self: center;
 }
 
